@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  background: #1c1c1c;
+  font-family: "inter", "sans-serif";
+}
+
+.box_left {
+  display: inline-block;
+  width: 550px;
+  height: 870px;
+  background-color: #23252c;
+  margin: 50px 0 50px 75px;
+  color: white;
+}
+.box_right {
+  display: inline-block;
+  width: 550px;
+  height: 870px;
+  background-color: #23252c;
+  margin: 50px 0 50px 50px;
+  color: white;
+}
+
+img {
+  margin: 40px 116px 0 116px;
+  border-radius: 10px 10px 0 0;
+}
+
+.mid {
+  background: #1a1b21;
+}
+.top {
+  margin: -5px 116px 0 116px;
+  width: 317px;
+  height: 399px;
+  background: #1a1b21;
+}
+
+h2,
+h3,
+h4,
+h5,
+p {
+  background: #1a1b21;
+  margin-top: 0;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+h2 {
+  padding-top: 20px;
+  font-weight: 700;
+  margin-bottom: 3px;
+}
+h3 {
+  text-align: left;
+  margin-left: 30px;
+  margin-bottom: 5px;
+}
+h4 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+  text-align: center;
+  color: #f3bf99;
+  margin-bottom: 5px;
+}
+
+p {
+  margin: 0 30px 25px;
+  font-size: 10px;
+  line-height: 150%;
+  text-align: left;
+  color: #dcdcdc;
+}
+
+.but1,
+.but2 {
+  width: 115px;
+  height: 34px;
+  text-align: center;
+  display: inline-block;
+}
+
+.but1 {
+  background: #ffffff;
+  margin: 10px 25px 33px 30px;
+  border: 1px solid #d1d5db;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+}
+.but2 {
+  background: #5093e2;
+  color: white;
+  padding-bottom: 5px;
+  margin: 10px 0px 33px 0px;
+  border: 1px solid #5093e2;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+}
+
+.bottom {
+  width: 317px;
+  height: 64px;
+  margin: -2px 116px 0 116px;
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
+}
+.icons {
+  background: #161619;
+  align-items: center;
+  padding-top: 8px;
+  display: flex;
+  justify-content: center;
+}
+.icons > img {
+  border-radius: 0;
+  margin: 10px;
+}
